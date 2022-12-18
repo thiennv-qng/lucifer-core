@@ -1,0 +1,18 @@
+[features]
+seeds = false
+
+[programs.localnet]
+lucifer = "B1hw4bqgqEsu7okvd6efKg2oKudtw4yNCRbV2qYWkUp9"
+
+[programs.devnet]
+lucifer = "B1hw4bqgqEsu7okvd6efKg2oKudtw4yNCRbV2qYWkUp9"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/congdm/my-solana-wallet/my-keypair.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
